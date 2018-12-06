@@ -2,14 +2,14 @@
 {
     public class PriceCalculation
     {
-        public int Apply(int itemCount, int itemCost)
+        public int Apply(int productCount, int productCost)
         {
-            if (itemCount == 0)
+            if (productCount == 0)
             {
                 return 0;
             }
 
-            return itemCount * itemCost;
+            return productCount * productCost;
         }
     }
 }

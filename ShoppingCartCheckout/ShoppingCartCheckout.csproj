@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuyOneGetOneOfferService.cs" />
+    <Compile Include="BuyThreeForTwoOfferService.cs" />
     <Compile Include="CheckoutSystem.cs" />
+    <Compile Include="IllegalArgumentException.cs" />
+    <Compile Include="IOfferService.cs" />
+    <Compile Include="OfferServiceFactory.cs" />
     <Compile Include="PriceCalculation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
